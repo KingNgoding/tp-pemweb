@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP03</title>
+  </head>
+  <body>
+    <h1>Profil Pribadi</h1>
+    <!-- tag div untuk container video dan foto -->
+    <div class="foto_video">
+      <!-- tag table untuk wadah membuat table -->
+      <table border="0">
+        <!-- tag tr untuk menambahkan row pada table -->
+        <tr>
+          <!-- tag th untuk membuat header table -->
+          <th>Foto Profil</th>
+          <th>Video Perkenalan</th>
+        </tr>
+        <tr>
+          <!-- tag td untuk menambhakan data ke table -->
+          <td>
+            <!-- tag img untuk menambahkan foto -->
+            <img
+              src="https://i.pinimg.com/originals/e1/77/47/e17747c78dd89a1d9522c5da154128b2.png"
+              alt="Foto Profil"
+              width="200"
+              height="200"
+            />
+          </td>
+          <td>
+            <!-- tag video untuk wadah video -->
+            <video width="340" height="160" controls>
+              <source src="" type="video/mp4" />
+              Browser tidak support video.
+            </video>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- tag div untuk container deskripsi pribadi -->
+    <div class="deskripsi">
+      <h3>Tetang Saya</h3>
+      <p>
+        Saya adalah mahasiswa jurusan Teknologi Informas fakultas Informatika
+        dari universitas Telkom University
+      </p>
+    </div>
+    <!-- tag div untuk container keterampilan -->
+    <div class="keterampilan">
+      <h3>Keterampilan</h3>
+      <table border="0">
+        <tr>
+          <th>Keterampilan</th>
+          <th>Tingkat</th>
+        </tr>
+        <tr>
+          <td>HTML/CSS</td>
+          <td>Pemula</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Pemula</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Pemula</td>
+        </tr>
+      </table>
+    </div>
+    <!-- tag div untuk container fomr  -->
+    <div class="form_pesan">
+      <h3>Hubungi Saya</h3>
+      <!-- tag form untuk wadah mengumpulkan data dari user -->
+      <form action="#" method="POST">
+        <div>
+          <label>Nama:</label>
+          <!-- tag input untuk mengumpulkan data dari user -->
+          <input type="text" />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label>Pesan:</label><br />
+          <!-- tag textarea untuk input data berupa paragraf panjang dari user -->
+          <textarea rows="5"></textarea><br />
+          <!-- tag button untuk interaktif di web -->
+          <button type="button">Kirim Pesan</button>
+        </div>
+      </form>
+    </div>
+    <div class="sosial_media">
+      <h2>Media Sosial:</h2>
+      <!-- tag a untuk navigasi menuju laman web lain -->
+      <a href="https://igracias.telkomuniversity.ac.id/">iGracias</a>
+    </div>
+  </body>
+</html>
